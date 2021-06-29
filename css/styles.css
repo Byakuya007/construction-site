@@ -1,3 +1,24 @@
-.body {
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slide-left {
+    width: 50%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.slide-right {
+    width: 50%;
+    height: 100vh;
 }
