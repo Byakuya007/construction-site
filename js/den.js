@@ -1,4 +1,13 @@
 //slide-btns
+$(document).ready(function() {
+    $(".first-btn").click(function() {
+        $(".first-btn").removeClass("active-btn");
+        // $(".tab").addClass("active"); // instead of this do the below 
+        $(this).addClass("active");
+        $('.overdue').addClass('alert');
+
+    });
+});
 $(document).on('click', '.first-btn,.second-btn', function() {
     $(this).addClass('active-btn').siblings().removeClass('active-btn')
 });
@@ -16,4 +25,14 @@ $(document).on('click', '.first-btn', function() {
 });
 $(document).on('click', '.second-btn', function() {
     $('.img-container2').addClass('active-img-slide').siblings('.img-container1').removeClass('active-img-slide')
+});
+
+
+
+$(document).ready(function() {
+    $(".tab").click(function() {
+        $(".tab").removeClass("active");
+        // $(".tab").addClass("active"); // instead of this do the below 
+        $(this).addClass("active");
+    });
 });
