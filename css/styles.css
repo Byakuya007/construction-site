@@ -268,7 +268,7 @@ p {
 .img-container2 {
     position: absolute;
     width: 100%;
-    height: 87%;
+    height: 100%;
     right: -1000000px;
 }
 
