@@ -18,7 +18,7 @@ a {
 .slide-left {
     width: 50%;
     height: 100vh;
-    background-image: url(../images/bg.png);
+    background-color: #161616;
     background-attachment: fixed;
     background-size: 100vh auto;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ a {
 .slide-right {
     width: 50%;
     height: 100vh;
-    background-image: url(../images/bg2.png);
+    background-color: white;
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
