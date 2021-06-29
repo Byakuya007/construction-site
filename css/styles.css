@@ -16,9 +16,21 @@ a {
     width: 50%;
     height: 100vh;
     background-color: #000000;
+    background-attachment: fixed;
+    background-size: 100vh auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .slide-right {
     width: 50%;
     height: 100vh;
+    background-color: #ffffff;
+    background-size: 100vh auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
 }
