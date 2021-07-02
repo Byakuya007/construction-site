@@ -16,7 +16,7 @@
                         
                         .slide-left {
                             width: 50%;
-                            height: 100vh;
+                            height: 150vh;
                             background-color: #161616;
                             background-attachment: fixed;
                             background-size: 100vh auto;
@@ -27,7 +27,7 @@
                         
                         .slide-right {
                             width: 50%;
-                            height: 100vh;
+                            height: 150vh;
                             background-color: white;
                             background-repeat: no-repeat;
                             overflow: hidden;
@@ -563,4 +563,87 @@
                             .cancelbtn {
                                 width: 100%;
                             }
+                        }
+                        
+                        .container {
+                            max-width: 1170px;
+                            background-color: peachpuff;
+                            margin: auto;
+                        }
+                        
+                        .row {
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        
+                        ul {
+                            list-style: none;
+                        }
+                        
+                        .footer {
+                            background-color: #24262B;
+                            padding: 70px 0;
+                        }
+                        
+                        .footer-col {
+                            width: 25%;
+                            padding: 0 25px;
+                            height: 50%;
+                        }
+                        
+                        .footer-col h4 {
+                            font-size: 18px;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            margin-bottom: 30px;
+                            font-weight: 500;
+                            position: relative;
+                        }
+                        
+                        .footer-col h4::before {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            bottom: -10px;
+                            background-color: #E91E63;
+                            height: 2px;
+                            box-sizing: border-box;
+                            width: 50px;
+                        }
+                        
+                        .footer-col ul li:not(:last-child) {
+                            margin-bottom: 10px;
+                        }
+                        
+                        .footer-col ul li a {
+                            font-size: 16px;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            font-weight: 300;
+                            color: #24262B;
+                            display: block;
+                            transition: all 0.3s ease;
+                            text-decoration: none;
+                        }
+                        
+                        .footer-col ul li a:hover {
+                            font-size: 20px;
+                            color: #FFFFFF;
+                            padding-left: 10px;
+                            padding: 3px 0;
+                            margin-left: 5px;
+                            font-weight: 700;
+                        }
+                        
+                        .footer-col .social-links a {
+                            display: inline-block;
+                            height: 40px;
+                            width: 40px;
+                            background-color: rgb();
+                        }
+                        
+                        .social-links a:hover {
+                            padding-left: 10px;
+                            padding: 3px 0;
+                            margin-left: 5px;
                         }
