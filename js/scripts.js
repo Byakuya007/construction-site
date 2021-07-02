@@ -59,7 +59,7 @@ result
                 },
                 title: {
                     display: true,
-                    text: `Coronovirus Cases in India for Last Three Months`,
+                    text: `Coronovirus Cases  for Last Three Months`,
                 },
             },
         });
